@@ -2,6 +2,9 @@ package ai.north.thought.converters;
 
 import jakarta.persistence.AttributeConverter;
 
+/**
+ * Конвертер из enum в String
+ */
 public class RoleNamesConverter implements AttributeConverter<RoleNames, String> {
     @Override
     public String convertToDatabaseColumn(RoleNames roleNames) {

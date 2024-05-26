@@ -6,6 +6,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
+/**
+ * Репозиторий для таблицы users с сущностью {@link User}
+ */
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
     Optional<User> findByUsername(String username);

@@ -10,6 +10,9 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
+/**
+ * Конфигурация для BasicAuthenticationEntryPoint
+ */
 @Component
 public class AuthenticationEntryPoint extends BasicAuthenticationEntryPoint {
     @Override

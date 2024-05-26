@@ -9,6 +9,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.*;
 
+/**
+ * Сущность для таблицы users
+ */
 @Getter
 @Setter
 @Entity

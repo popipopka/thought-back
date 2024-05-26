@@ -7,6 +7,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/**
+ * Репозиторий для таблицы notes с сущностью {@link Note}
+ */
 @Repository
 public interface NoteRepository extends JpaRepository<Note, Integer> {
     List<Note> findAllByUser(User user);

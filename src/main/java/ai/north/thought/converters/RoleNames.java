@@ -3,6 +3,9 @@ package ai.north.thought.converters;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
+/**
+ * Перечисление ролей пользователей
+ */
 @Getter
 @RequiredArgsConstructor
 public enum RoleNames {

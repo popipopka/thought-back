@@ -15,6 +15,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Locale;
 
+/**
+ * Реализация {@link NoteService}
+ */
 @Service
 @RequiredArgsConstructor
 public class NoteServiceImpl implements NoteService {

@@ -17,6 +17,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Locale;
 
+/**
+ * Реализация {@link UserService}
+ */
 @Service
 @RequiredArgsConstructor
 public class UserServiceImpl implements UserService {

@@ -6,6 +6,9 @@ import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 
+/**
+ * Сущность для таблицы roles
+ */
 @Getter
 @Setter
 @Entity
